@@ -1,6 +1,6 @@
 {
   "name": "@djalmahjr/lib-database-calendar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This package is a module on connect the database of calendar project",
   "main": "index.js",
   "scripts": {

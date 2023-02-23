@@ -12,8 +12,8 @@ export default new DataSource({
   password: DB_PASSWORD,
   database: DB_NAME,
   migrationsTableName: 'migration_execs',
-  migrations: [resolve(__dirname, '..', 'migrations', '*.ts')],
-  entities: [resolve(__dirname, '..', 'entities', '*.ts')],
+  migrations: [resolve(__dirname, '..', 'migrations', '*{.ts,.js}')],
+  entities: [resolve(__dirname, '..', 'entities', '*{.ts,.js}')],
   namingStrategy: new SnakeNamingStrategy(),
   logging: true
 });
